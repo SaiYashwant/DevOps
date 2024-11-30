@@ -1,7 +1,6 @@
 ## What is DevOps?
 
-- **DevOps** is a set of practices that combines software development (Dev) and IT operations (Ops). Its goal is to shorten the development lifecycle and deliver high-quality software continuously.
-- **DevOps** emphasizes collaboration between development and operations teams, automation of processes, and continuous monitoring and improvement of software.
+**DevOps** is a set of cultural practices that combines software development (Dev) and IT operations (Ops). Its goal is to shorten the development lifecycle and deliver high-quality software continuously and increases an organization's ability to deliver applications and services at high velocity.
 
 ### Practices
 
