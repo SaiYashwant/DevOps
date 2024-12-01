@@ -1,0 +1,39 @@
+1) What is DevOps and how does it benefit an organization?
+   DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the development lifecycle and deliver high-quality software continuously. 
+   Benefits include faster delivery of features, improved collaboration between teams, and more reliable releases.
+
+2) Can you explain the key principles of DevOps?
+   The key principles of DevOps include continuous integration, continuous delivery, automation, collaboration, and monitoring. 
+   These principles help in creating a culture of shared responsibility and continuous improvement.
+  
+3) Describe a challenging DevOps project you worked on and how you overcame the challenges?
+   In a previous project, we faced issues with deployment speed and reliability. 
+   We implemented a CI/CD pipeline using Jenkins and Docker, which automated the build and deployment process. This reduced deployment time and minimized human errors.
+
+### CI/CD 
+
+1) What is Continuous Integration (CI) and Continuous Deployment (CD)?
+   CI is the practice of merging all developers' working copies to a shared mainline several times a day. 
+   CD is the practice of automatically deploying every change that passes all stages of the production pipeline to production.
+
+2) How does a CI/CD pipeline improve software quality?
+   A CI/CD pipeline automates the testing and deployment process, ensuring that code changes are tested thoroughly before being deployed. 
+   This reduces the chances of bugs reaching production and allows for faster feedback and iteration.
+
+3) Can you describe the stages of a typical CI/CD pipeline?
+     A typical CI/CD pipeline includes stages like:
+     - Source: Code is committed to the version control system.
+     - Build: Code is compiled and built.
+     - Test: Automated tests are run.
+     - Deploy: Code is deployed to staging or production environments.
+     - Monitor: The application is monitored for performance and errors.
+
+4) How do you handle failed builds in a CI/CD pipeline?
+    Failed builds are handled by:
+     - Immediate Notification: Notifying the development team immediately.
+     - Logs and Reports: Analyzing logs and reports to identify the cause.
+     - Fix and Rebuild: Fixing the issue and triggering a new build.
+
+
+5. **Describe a project where you successfully implemented CI/CD. What challenges did you face and how did you overcome them?**
+   - **Answer:** In a recent project, we implemented CI/CD using Jenkins and Kubernetes. Challenges included managing complex dependencies and ensuring zero-downtime deployments. We overcame these by using containerization and blue-green deployment strategies.
